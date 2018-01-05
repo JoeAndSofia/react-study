@@ -1,0 +1,10 @@
+//references
+https://docs.npmjs.com/
+https://docs.npmjs.com/cli/install
+
+//lines
+npm init
+npm install --save-dev webpack --no-optional
+webpack --config webpack.dev.config.js
+npm install --save-dev babel-core babel-loader babel-preset-env babel-preset-react babel-preset-stage-2 --no-optional
+npm install --save react react-dom --no-optional
