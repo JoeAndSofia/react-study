@@ -1,10 +1,24 @@
-//references
+1. //references
 https://docs.npmjs.com/
 https://docs.npmjs.com/cli/install
 
-//lines
+2. //lines
+
+
 npm init
 npm install --save-dev webpack --no-optional
 webpack --config webpack.dev.config.js
 npm install --save-dev babel-core babel-loader babel-preset-env babel-preset-react babel-preset-stage-2 --no-optional
 npm install --save react react-dom --no-optional
+
+//router
+npm install --save react-router-dom
+cd src
+mkdir router
+cd router
+type nul>router.js
+
+md Home && type nul>Home\Home.js
+md Page1 && type nul>Page1\Page1.js
+
+
