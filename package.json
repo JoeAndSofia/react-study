@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "deb-build": "webpack --config webpack.dev.config.js"
+    "dev": "webpack --config webpack.dev.config.js"
   },
   "author": "joe.wang",
   "license": "ISC",
