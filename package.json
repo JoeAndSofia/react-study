@@ -4,7 +4,8 @@
   "description": "self study react by creating a react project from the beginning",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deb-build": "webpack --config webpack.dev.config.js"
   },
   "author": "joe.wang",
   "license": "ISC",
