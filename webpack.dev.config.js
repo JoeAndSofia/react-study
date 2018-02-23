@@ -20,4 +20,9 @@ module.exports = {
             include: path.join(__dirname, 'src')
         }]
     },
+
+    //part-03
+    devServer: {
+        contentBase: path.join(__dirname, './dist')
+    },
 };
