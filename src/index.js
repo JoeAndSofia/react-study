@@ -24,11 +24,24 @@
 //     <Hello/>, document.getElementById('app'));
 
 //0005
+// import React from 'react';
+// import ReactDom from 'react-dom';
+//
+// import getRouter from './router/router'
+//
+// ReactDom.render(
+//     getRouter(), document.getElementById('app')
+// );
+
+//0006
 import React from 'react';
 import ReactDom from 'react-dom';
 
-import getRouter from './router/router'
+import getRouter from './router/router';
+
+if(module.hot) {
+	module.hot.accept();
+}
 
 ReactDom.render(
-    getRouter(), document.getElementById('app')
-);
+	getRouter(), document.getElementById('app'));

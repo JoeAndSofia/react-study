@@ -14,10 +14,10 @@ npm install --save react react-dom --no-optional
 //router
 npm install --save react-router-dom
 cd src
-mkdir router
-cd router
-type nul>router.js
+mkdir router && type nul>router\router.js
 
+cd src && mkdir pages
+cd pages
 md Home && type nul>Home\Home.js
 md Page1 && type nul>Page1\Page1.js
 
