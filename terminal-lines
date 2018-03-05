@@ -8,6 +8,10 @@ https://docs.npmjs.com/cli/install
 npm init
 npm install --save-dev webpack --no-optional
 webpack --config webpack.dev.config.js
+
+npm install webpack-dev-server@2 -g
+
+
 npm install --save-dev babel-core babel-loader babel-preset-env babel-preset-react babel-preset-stage-2 --no-optional
 npm install --save react react-dom --no-optional
 
@@ -21,4 +25,9 @@ cd pages
 md Home && type nul>Home\Home.js
 md Page1 && type nul>Page1\Page1.js
 
+
+
+
+npm install react-hot-loader@next --save-dev
+//react-hot-loader document: https://gaearon.github.io/react-hot-loader/getstarted/
 
