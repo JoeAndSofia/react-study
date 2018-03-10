@@ -31,3 +31,21 @@ md Page1 && type nul>Page1\Page1.js
 npm install react-hot-loader@next --save-dev
 //react-hot-loader document: https://gaearon.github.io/react-hot-loader/getstarted/
 
+
+npm install --save redux
+
+
+cd src
+mkdir redux
+cd redux
+mkdir actions
+mkdir reducers
+touch reducers.js
+touch store.js
+touch actions/action_counter.js
+touch reducers/reducer_counter.js
+
+
+cd src
+cd redux
+touch testRedux.js
