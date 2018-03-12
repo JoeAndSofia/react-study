@@ -19659,7 +19659,7 @@ module.exports = camelize;
 
 
 Object.defineProperty(exports, "__esModule", {
-    value: true
+	value: true
 });
 
 var _react = __webpack_require__(0);
@@ -19679,42 +19679,42 @@ var _Page2 = _interopRequireDefault(_Page);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var getRouter = function getRouter() {
-    return _react2.default.createElement(
-        _reactRouterDom.BrowserRouter,
-        null,
-        _react2.default.createElement(
-            'div',
-            null,
-            _react2.default.createElement(
-                'ul',
-                null,
-                _react2.default.createElement(
-                    'li',
-                    null,
-                    _react2.default.createElement(
-                        _reactRouterDom.Link,
-                        { to: '/' },
-                        '\u9996\u9875'
-                    )
-                ),
-                _react2.default.createElement(
-                    'li',
-                    null,
-                    _react2.default.createElement(
-                        _reactRouterDom.Link,
-                        { to: '/page1' },
-                        'Page1'
-                    )
-                )
-            ),
-            _react2.default.createElement(
-                _reactRouterDom.Switch,
-                null,
-                _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/', component: _Home2.default }),
-                _react2.default.createElement(_reactRouterDom.Route, { path: '/page1', component: _Page2.default })
-            )
-        )
-    );
+	return _react2.default.createElement(
+		_reactRouterDom.BrowserRouter,
+		null,
+		_react2.default.createElement(
+			'div',
+			null,
+			_react2.default.createElement(
+				'ul',
+				null,
+				_react2.default.createElement(
+					'li',
+					null,
+					_react2.default.createElement(
+						_reactRouterDom.Link,
+						{ to: '/' },
+						'\u9996\u9875'
+					)
+				),
+				_react2.default.createElement(
+					'li',
+					null,
+					_react2.default.createElement(
+						_reactRouterDom.Link,
+						{ to: '/page1' },
+						'Page1'
+					)
+				)
+			),
+			_react2.default.createElement(
+				_reactRouterDom.Switch,
+				null,
+				_react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/', component: _Home2.default }),
+				_react2.default.createElement(_reactRouterDom.Route, { path: '/page1', component: _Page2.default })
+			)
+		)
+	);
 };
 
 exports.default = getRouter;
@@ -23432,7 +23432,7 @@ module.exports = function hoistNonReactStatics(targetComponent, sourceComponent,
 
 
 Object.defineProperty(exports, "__esModule", {
-    value: true
+	value: true
 });
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
@@ -23450,26 +23450,26 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 var Home = function (_Component) {
-    _inherits(Home, _Component);
+	_inherits(Home, _Component);
 
-    function Home() {
-        _classCallCheck(this, Home);
+	function Home() {
+		_classCallCheck(this, Home);
 
-        return _possibleConstructorReturn(this, (Home.__proto__ || Object.getPrototypeOf(Home)).apply(this, arguments));
-    }
+		return _possibleConstructorReturn(this, (Home.__proto__ || Object.getPrototypeOf(Home)).apply(this, arguments));
+	}
 
-    _createClass(Home, [{
-        key: 'render',
-        value: function render() {
-            return _react2.default.createElement(
-                'div',
-                null,
-                'this is home~'
-            );
-        }
-    }]);
+	_createClass(Home, [{
+		key: 'render',
+		value: function render() {
+			return _react2.default.createElement(
+				'div',
+				null,
+				'this is home~'
+			);
+		}
+	}]);
 
-    return Home;
+	return Home;
 }(_react.Component);
 
 exports.default = Home;
@@ -23482,7 +23482,7 @@ exports.default = Home;
 
 
 Object.defineProperty(exports, "__esModule", {
-    value: true
+	value: true
 });
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
@@ -23500,26 +23500,26 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 var Page1 = function (_Component) {
-    _inherits(Page1, _Component);
+	_inherits(Page1, _Component);
 
-    function Page1() {
-        _classCallCheck(this, Page1);
+	function Page1() {
+		_classCallCheck(this, Page1);
 
-        return _possibleConstructorReturn(this, (Page1.__proto__ || Object.getPrototypeOf(Page1)).apply(this, arguments));
-    }
+		return _possibleConstructorReturn(this, (Page1.__proto__ || Object.getPrototypeOf(Page1)).apply(this, arguments));
+	}
 
-    _createClass(Page1, [{
-        key: 'render',
-        value: function render() {
-            return _react2.default.createElement(
-                'div',
-                null,
-                'this is Page1~'
-            );
-        }
-    }]);
+	_createClass(Page1, [{
+		key: 'render',
+		value: function render() {
+			return _react2.default.createElement(
+				'div',
+				null,
+				'this is Page1~'
+			);
+		}
+	}]);
 
-    return Page1;
+	return Page1;
 }(_react.Component);
 
 exports.default = Page1;
