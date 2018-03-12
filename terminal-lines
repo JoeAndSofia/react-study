@@ -49,3 +49,11 @@ touch reducers/reducer_counter.js
 cd src
 cd redux
 touch testRedux.js
+
+
+cd src/pages
+mkdir Counter
+touch Counter/Counter.js
+
+
+npm install --save react-redux
