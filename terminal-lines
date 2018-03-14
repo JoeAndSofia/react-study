@@ -57,3 +57,22 @@ touch Counter/Counter.js
 
 
 npm install --save react-redux
+
+
+cd dist
+mkdir api
+cd api
+touch user.json
+
+
+cd src/redux/actions
+touch action_userInfo.js
+
+
+cd src/redux/reducers
+touch reducer_userInfo.js
+
+
+npm install --save redux-thunk
+
+
