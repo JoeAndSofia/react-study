@@ -1,8 +1,7 @@
-import {createStore} from 'redux';
+import {createStore, applyMiddleware} from 'redux';
+import thunkMiddleware from 'redux-thunk';
 import combineReducers from 'reducers';
 
-console.log("store.js-beforeCreateStore");
-let store = createStore(combineReducers);
-console.log("store.js-afterCreateStore");
+let store = createStore(combineReducers, applyMiddleware(thunkMiddleware));
 
 export default store

@@ -76,3 +76,70 @@ touch reducer_userInfo.js
 npm install --save redux-thunk
 
 
+cd src/pages
+mkdir UserInfo
+cd UserInfo
+touch UserInfo.js
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
